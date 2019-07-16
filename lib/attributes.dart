@@ -4,6 +4,8 @@ class Attributes {
   String regex;
   String imageUrl;
   String defaultVal;
+  String hint;
+  String dropdown;
   List values;
 
   Attributes(
@@ -12,7 +14,9 @@ class Attributes {
       this.regex,
       this.imageUrl,
       this.defaultVal,
-      this.values});
+      this.values,
+      this.hint,
+      this.dropdown});
 
   Attributes.fromJson(Map<String, dynamic> json) {
     type = json['type'];
@@ -21,6 +25,8 @@ class Attributes {
     imageUrl = json['url'];
     defaultVal = json['default'];
     values = json['values'];
+    hint = json['hint'];
+    dropdown = json['dropdown'];
     print(type);
   }
 
