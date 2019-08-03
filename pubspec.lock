@@ -106,6 +106,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.14.11"
+  connectivity:
+    dependency: "direct main"
+    description:
+      name: connectivity
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.4.3+6"
   convert:
     dependency: transitive
     description:
@@ -154,7 +161,7 @@ packages:
       name: dio
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.10"
+    version: "2.1.13"
   fixnum:
     dependency: transitive
     description:
@@ -334,7 +341,7 @@ packages:
     source: hosted
     version: "2.0.3"
   retrofit:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: retrofit
       url: "https://pub.dartlang.org"
@@ -473,3 +480,4 @@ packages:
     version: "2.1.16"
 sdks:
   dart: ">=2.3.0 <3.0.0"
+  flutter: ">=1.2.0 <2.0.0"
