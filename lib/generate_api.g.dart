@@ -1,6 +1,6 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'dynamic_page_demo.dart';
+part of 'generate_api.dart';
 
 // **************************************************************************
 // RetrofitGenerator

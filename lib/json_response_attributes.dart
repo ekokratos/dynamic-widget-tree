@@ -27,7 +27,6 @@ class Attributes {
     values = json['values'];
     hint = json['hint'];
     dropdown = json['dropdown'];
-    print(type);
   }
 
   Map<String, dynamic> toJson() {
